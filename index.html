@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pumpkin Carving Party</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Creepster&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f3e8; /* Off-white / Creamy */
+        }
+        .creepster-font {
+            font-family: 'Creepster', cursive;
+        }
+        .pumpkin-orange {
+            color: #ff7518;
+        }
+        .pumpkin-bg {
+            background-color: #ff7518;
+        }
+        .dark-green {
+            background-color: #2b7a78;
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 sm:p-8">
+    <div class="max-w-4xl mx-auto dark-green shadow-2xl rounded-3xl overflow-hidden">
+        
+        <!-- Header & Title -->
+        <header class="pumpkin-bg text-white p-6 sm:p-10 text-center border-b-4 border-amber-900">
+            <h1 class="creepster-font text-5xl sm:text-7xl leading-tight tracking-wider">
+                Carve & Feast Bash!
+            </h1>
+            <p class="text-lg sm:text-xl font-semibold mt-2">Annual Pumpkin Carving & Cozy Dinner Party</p>
+        </header>
+
+        <!-- Main Content Grid -->
+        <main class="p-6 sm:p-10 bg-gray-50/90 flex flex-col lg:flex-row gap-8">
+            
+            <!-- Details Column -->
+            <div class="lg:w-1/2">
+                <h2 class="text-3xl font-extrabold text-amber-900 mb-4 border-b-2 border-orange-300 pb-2">
+                    Event Details & Schedule
+                </h2>
+
+                <div class="space-y-4 text-gray-700">
+                    <p class="text-xl font-bold flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <span class="font-bold text-gray-900">Sunday, October 25th, 2026</span>
+                    </p>
+                    <p class="text-xl font-bold flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span class="font-bold text-gray-900">3:00 PM</span> until late
+                    </p>
+                    <p class="text-xl font-bold flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span class="font-bold text-gray-900">Location:</span> 2990 Lakefield Drive
+                    </p>
+                </div>
+
+                <!-- Event Flow Timeline -->
+                <div class="mt-6 p-4 bg-orange-100/70 rounded-xl border-l-4 border-pumpkin-orange">
+                    <h3 class="text-xl font-bold text-amber-900 mb-2">The Party Flow:</h3>
+                    <ul class="space-y-2 text-gray-800 text-md">
+                        <li class="flex items-center"><span class="font-bold w-24 text-pumpkin-orange">3:00 PM:</span> Welcome, Drinks & Afternoon Snacks</li>
+                        <li class="flex items-center"><span class="font-bold w-24 text-pumpkin-orange">3:30 PM:</span> Pumpkin Carving Begins!</li>
+                        <li class="flex items-center"><span class="font-bold w-24 text-pumpkin-orange">5:30 PM:</span> Cozy Supper (Chili & Stew)</li>
+                        <li class="flex items-center"><span class="font-bold w-24 text-pumpkin-orange">6:30 PM:</span> Dark-of-Night Photoshoot & Dessert</li>
+                    </ul>
+                </div>
+                
+                <!-- Food Section -->
+                <h3 class="text-2xl font-bold text-gray-800 mt-6 mb-3 border-b border-orange-200 pb-1">
+                    The Feast (All Provided!)
+                </h3>
+                <ul class="list-none space-y-2 text-lg text-gray-700">
+                    <li class="flex items-start">
+                        <span class="mr-2 text-pumpkin-orange font-extrabold text-xl">•</span>
+                        <strong>Mains:</strong> Hearty Vegetarian Chili & Savory Beef Stew.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2 text-pumpkin-orange font-extrabold text-xl">•</span>
+                        <strong>Sides:</strong> Fresh Crusty Bread, Potato Salad, Kettle Chips, and Toppings.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2 text-pumpkin-orange font-extrabold text-xl">•</span>
+                        <strong>Sweet:</strong> Pumpkin Pie Tarts & Halloween Sugar Cookies.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-2 text-pumpkin-orange font-extrabold text-xl">•</span>
+                        <strong>Warmth:</strong> Hot Apple Cider and assorted beverages.
+                    </li>
+                </ul>
+
+                <!-- RSVP -->
+                <div class="mt-6 p-4 bg-yellow-100 rounded-xl shadow-md">
+                    <p class="text-xl font-extrabold text-red-600">
+                        RSVP Deadline:
+                    </p>
+                    <p class="text-lg text-gray-700 mt-1">
+                        Please reply by <strong>Thursday, October 22nd</strong> to help us with the food count!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Visuals/Carving Column -->
+            <div class="lg:w-1/2">
+                <h2 class="text-3xl font-extrabold text-amber-900 mb-4 border-b-2 border-orange-300 pb-2">
+                    The Main Event: Carving & Photoshoot
+                </h2>
+                
+                <p class="text-lg text-gray-700 mb-4">
+                    We'll carve during the daylight hours, enjoy a warm supper together, and then light up our masterpieces for a grand photoshoot once night falls!
+                </p>
+
+                <div class="p-4 bg-green-100 rounded-xl shadow-md border-l-4 border-green-600 mb-6">
+                    <h4 class="text-xl font-bold text-green-800 mb-1">
+                        ***ATTENTION: Bring Your Own Pumpkin!***
+                    </h4>
+                    <p class="text-md text-gray-700">
+                        Please bring one uncarved pumpkin per person/couple. We provide all the specialized carving tools, scoops, and tea lights.
+                    </p>
+                </div>
+                
+                <!-- Inspiration Images -->
+                <h4 class="text-lg font-bold text-gray-800 mb-3">
+                    Inspiration from Last Year's Haul:
+                </h4>
+                <div class="flex flex-wrap gap-2 justify-center">
+                    <img class="w-28 h-28 sm:w-36 sm:h-36 object-cover rounded-lg shadow-lg border-2 border-pumpkin-orange" 
+                         src="https://placehold.co/150x150/ff7518/ffffff?text=PUMPKIN+1" 
+                         alt="Carved pumpkin display from a previous year"
+                    >
+                    <img class="w-28 h-28 sm:w-36 sm:h-36 object-cover rounded-lg shadow-lg border-2 border-pumpkin-orange" 
+                         src="https://placehold.co/150x150/ff7518/ffffff?text=PUMPKIN+2" 
+                         alt="Another creative carved pumpkin"
+                    >
+                    <img class="w-28 h-28 sm:w-36 sm:h-36 object-cover rounded-lg shadow-lg border-2 border-pumpkin-orange" 
+                         src="https://placehold.co/150x150/ff7518/ffffff?text=BONUS" 
+                         alt="Placeholder image for visual balance"
+                    >
+                </div>
+                <p class="text-sm text-center text-gray-500 mt-2">
+                    (Inspiration from previous carving nights!)
+                </p>
+            </div>
+        </main>
+
+        <footer class="pumpkin-bg text-center p-4 text-white">
+            <p class="font-semibold">See you on the 25th for carving, cozy supper, and our glowing night photos!</p>
+        </footer>
+    </div>
+</body>
+</html>
